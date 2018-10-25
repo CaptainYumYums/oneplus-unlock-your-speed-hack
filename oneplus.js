@@ -8,7 +8,14 @@ console.log("Connecting");
 socket.on('connect', async () => {
     // Authenticate user on socket
     socket.emit('authenticate user',
-        {
+                {username: "CaptainYumYums", token: "8adaeafcc97aef2c431354b7f5c7c3f0b706f5ca7a36aa32975ef92a",…}
+count: 781
+csrf: "HmAf65hdl1I4ZZcEpHyexGXoYvxqMDp8Xq6bAl2QzhS09o0D7i2f8PUASY5e6h7c"
+locale: "en-gb"
+squad: ""
+token: "8adaeafcc97aef2c431354b7f5c7c3f0b706f5ca7a36aa32975ef92a"
+username: "CaptainYumYums"
+      
             count: '0',
             username: "anandamritraj",
             token: "YOUR_TOKEN",
@@ -57,7 +64,13 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-/**
+/**{username: "CaptainYumYums", token: "8adaeafcc97aef2c431354b7f5c7c3f0b706f5ca7a36aa32975ef92a",…}
+count: 781
+csrf: "HmAf65hdl1I4ZZcEpHyexGXoYvxqMDp8Xq6bAl2QzhS09o0D7i2f8PUASY5e6h7c"
+locale: "en-gb"
+squad: ""
+token: "8adaeafcc97aef2c431354b7f5c7c3f0b706f5ca7a36aa32975ef92a"
+username: "CaptainYumYums"
  * Emit a tap using socket.io
  */
 function EmitTap() {
